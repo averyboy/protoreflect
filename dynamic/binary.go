@@ -4,9 +4,10 @@ package dynamic
 
 import (
 	"fmt"
-	"github.com/golang/protobuf/proto"
-	"github.com/jhump/protoreflect/codec"
 	"io"
+
+	"github.com/averyboy/protoreflect/codec"
+	"github.com/golang/protobuf/proto"
 )
 
 // defaultDeterminism, if true, will mean that calls to Marshal will produce

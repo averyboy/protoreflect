@@ -6,9 +6,9 @@ import (
 
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/jhump/protoreflect/desc/sourceinfo"
-	_ "github.com/jhump/protoreflect/internal/testprotos"
-	"github.com/jhump/protoreflect/internal/testutil"
+	"github.com/averyboy/protoreflect/desc/sourceinfo"
+	_ "github.com/averyboy/protoreflect/internal/testprotos"
+	"github.com/averyboy/protoreflect/internal/testutil"
 )
 
 func TestRegistry(t *testing.T) {

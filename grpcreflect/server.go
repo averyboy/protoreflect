@@ -6,7 +6,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 
-	"github.com/jhump/protoreflect/desc"
+	"github.com/averyboy/protoreflect/desc"
 )
 
 // GRPCServer is the interface provided by a gRPC server. In addition to being a

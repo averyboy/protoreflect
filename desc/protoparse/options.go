@@ -8,10 +8,10 @@ import (
 	"github.com/golang/protobuf/proto"
 	dpb "github.com/golang/protobuf/protoc-gen-go/descriptor"
 
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/desc/internal"
-	"github.com/jhump/protoreflect/desc/protoparse/ast"
-	"github.com/jhump/protoreflect/dynamic"
+	"github.com/averyboy/protoreflect/desc"
+	"github.com/averyboy/protoreflect/desc/internal"
+	"github.com/averyboy/protoreflect/desc/protoparse/ast"
+	"github.com/averyboy/protoreflect/dynamic"
 )
 
 // NB: To process options, we need descriptors, but we may not have rich

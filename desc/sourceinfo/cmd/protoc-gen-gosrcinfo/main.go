@@ -15,7 +15,7 @@ import (
 	"github.com/jhump/goprotoc/plugins"
 	"google.golang.org/protobuf/types/pluginpb"
 
-	"github.com/jhump/protoreflect/desc"
+	"github.com/averyboy/protoreflect/desc"
 )
 
 func main() {
@@ -89,7 +89,7 @@ func generateSourceInfo(fd *desc.FileDescriptor, names *plugins.GoNames, resp *p
 		return fmt.Errorf("failed to compress source code info: %w", err)
 	}
 
-	srcInfoPkg := f.RegisterImport("github.com/jhump/protoreflect/desc/sourceinfo", "sourceinfo")
+	srcInfoPkg := f.RegisterImport("github.com/averyboy/protoreflect/desc/sourceinfo", "sourceinfo")
 
 	var srcInfoVarBlock gopoet.CodeBlock
 	srcInfoVarBlock.Println("srcInfo := []byte{")

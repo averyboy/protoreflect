@@ -4,10 +4,10 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/averyboy/protoreflect/desc"
+	"github.com/averyboy/protoreflect/internal/testprotos"
+	"github.com/averyboy/protoreflect/internal/testutil"
 	"github.com/golang/protobuf/proto"
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/internal/testprotos"
-	"github.com/jhump/protoreflect/internal/testutil"
 )
 
 func eqm(a, b interface{}) bool {

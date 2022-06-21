@@ -4,7 +4,7 @@
 package dynamic
 
 import (
-	"github.com/jhump/protoreflect/desc"
+	"github.com/averyboy/protoreflect/desc"
 	"reflect"
 )
 

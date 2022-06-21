@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/averyboy/protoreflect/desc"
+	"github.com/averyboy/protoreflect/dynamic"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/dynamic"
 )
 
 type dependencies struct {

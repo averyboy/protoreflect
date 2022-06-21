@@ -7,7 +7,7 @@ import (
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/types/descriptorpb"
 
-	"github.com/jhump/protoreflect/desc/internal"
+	"github.com/averyboy/protoreflect/desc/internal"
 )
 
 // NB: forked from google.golang.org/protobuf/internal/filedesc

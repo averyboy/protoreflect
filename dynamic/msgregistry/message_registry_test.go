@@ -19,11 +19,11 @@ import (
 	"google.golang.org/genproto/protobuf/ptype"
 	"google.golang.org/genproto/protobuf/source_context"
 
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/desc/protoparse"
-	"github.com/jhump/protoreflect/dynamic"
-	"github.com/jhump/protoreflect/internal/testprotos"
-	"github.com/jhump/protoreflect/internal/testutil"
+	"github.com/averyboy/protoreflect/desc"
+	"github.com/averyboy/protoreflect/desc/protoparse"
+	"github.com/averyboy/protoreflect/dynamic"
+	"github.com/averyboy/protoreflect/internal/testprotos"
+	"github.com/averyboy/protoreflect/internal/testutil"
 )
 
 func TestMessageRegistry_LookupTypes(t *testing.T) {

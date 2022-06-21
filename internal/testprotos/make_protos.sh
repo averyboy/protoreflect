@@ -31,7 +31,7 @@ if [[ "$(${PROTOC} --version 2>/dev/null)" != "libprotoc ${PROTOC_VERSION}" ]]; 
 fi
 
 go install github.com/golang/protobuf/protoc-gen-go 
-go install github.com/jhump/protoreflect/desc/sourceinfo/cmd/protoc-gen-gosrcinfo
+go install github.com/averyboy/protoreflect/desc/sourceinfo/cmd/protoc-gen-gosrcinfo
 
 # Output directory will effectively be GOPATH/src.
 outdir="../../../../.."

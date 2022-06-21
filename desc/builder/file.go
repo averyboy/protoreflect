@@ -9,9 +9,9 @@ import (
 	"github.com/golang/protobuf/proto"
 	dpb "github.com/golang/protobuf/protoc-gen-go/descriptor"
 
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/desc/internal"
-	"github.com/jhump/protoreflect/dynamic"
+	"github.com/averyboy/protoreflect/desc"
+	"github.com/averyboy/protoreflect/desc/internal"
+	"github.com/averyboy/protoreflect/dynamic"
 )
 
 var uniqueFileCounter uint64

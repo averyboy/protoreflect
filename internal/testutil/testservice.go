@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	grpc_testing "github.com/jhump/protoreflect/internal/testprotos/grpc"
+	grpc_testing "github.com/averyboy/protoreflect/internal/testprotos/grpc"
 )
 
 // TestService is a very simple test service that just echos back request payloads

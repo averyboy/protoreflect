@@ -3,7 +3,7 @@
 
 package pkg
 
-import "github.com/jhump/protoreflect/desc/sourceinfo"
+import "github.com/averyboy/protoreflect/desc/sourceinfo"
 
 func init() {
 	srcInfo := []byte{
