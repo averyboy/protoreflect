@@ -8,8 +8,8 @@ package testprotos
 
 import (
 	proto "github.com/golang/protobuf/proto"
-	nopkg "github.com/jhump/protoreflect/internal/testprotos/nopkg"
-	pkg "github.com/jhump/protoreflect/internal/testprotos/pkg"
+	nopkg "github.com/averyboy/protoreflect/internal/testprotos/nopkg"
+	pkg "github.com/averyboy/protoreflect/internal/testprotos/pkg"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

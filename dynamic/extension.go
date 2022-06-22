@@ -5,8 +5,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/jhump/protoreflect/codec"
-	"github.com/jhump/protoreflect/desc"
+	"github.com/averyboy/protoreflect/codec"
+	"github.com/averyboy/protoreflect/desc"
 )
 
 // SetExtension sets the given extension value. If the given message is not a

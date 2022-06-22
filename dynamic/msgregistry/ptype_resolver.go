@@ -16,8 +16,8 @@ import (
 	"google.golang.org/genproto/protobuf/api"
 	"google.golang.org/genproto/protobuf/ptype"
 
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/dynamic"
+	"github.com/averyboy/protoreflect/desc"
+	"github.com/averyboy/protoreflect/dynamic"
 )
 
 var (

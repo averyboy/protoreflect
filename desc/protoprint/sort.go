@@ -6,7 +6,7 @@ import (
 
 	dpb "github.com/golang/protobuf/protoc-gen-go/descriptor"
 
-	"github.com/jhump/protoreflect/desc"
+	"github.com/averyboy/protoreflect/desc"
 )
 
 // ElementKind is an enumeration of the types of elements in a protobuf
