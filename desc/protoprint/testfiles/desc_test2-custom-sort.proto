@@ -44,7 +44,7 @@ message Frobnitz {
   optional TestMessage a = 1;
 }
 
-option go_package = "github.com/jhump/protoreflect/internal/testprotos";
+option go_package = "github.com/averyboy/protoreflect/internal/testprotos";
 
 import "pkg/desc_test_pkg.proto";
 

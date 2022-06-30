@@ -14,9 +14,9 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
 
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/desc/internal"
-	"github.com/jhump/protoreflect/dynamic"
+	"github.com/averyboy/protoreflect/desc"
+	"github.com/averyboy/protoreflect/desc/internal"
+	"github.com/averyboy/protoreflect/dynamic"
 )
 
 // Printer knows how to format file descriptors as proto source code. Its fields
