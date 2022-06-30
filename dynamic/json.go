@@ -18,6 +18,7 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
+
 	// link in the well-known-types that have a special JSON format
 	_ "github.com/golang/protobuf/ptypes/any"
 	_ "github.com/golang/protobuf/ptypes/duration"
@@ -383,7 +384,9 @@ func marshalKnownFieldValueJSON(b *indentBuffer, fd *desc.FieldDescriptor, v int
 	rv := reflect.ValueOf(v)
 	switch rv.Kind() {
 	case reflect.Int64:
-		return writeJsonString(b, strconv.FormatInt(rv.Int(), 10))
+		// return writeJsonString(b, strconv.FormatInt(rv.Int(), 10))
+		_, err := b.WriteString(strconv.FormatInt(rv.Int(), 10))
+		return err
 	case reflect.Int32:
 		ed := fd.GetEnumType()
 		if !opts.EnumsAsInts && ed != nil {
@@ -400,7 +403,9 @@ func marshalKnownFieldValueJSON(b *indentBuffer, fd *desc.FieldDescriptor, v int
 			return err
 		}
 	case reflect.Uint64:
-		return writeJsonString(b, strconv.FormatUint(rv.Uint(), 10))
+		// return writeJsonString(b, strconv.FormatUint(rv.Uint(), 10))
+		_, err := b.WriteString(strconv.FormatUint(rv.Uint(), 10))
+		return err
 	case reflect.Uint32:
 		_, err := b.WriteString(strconv.FormatUint(rv.Uint(), 10))
 		return err
