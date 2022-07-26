@@ -618,6 +618,8 @@ func (m *Message) unmarshalJson(r *jsReader, opts *jsonpb.Unmarshaler) error {
 		return err
 	}
 
+	// 兼容接入层，允许存在不在协议中的字段
+	opts.AllowUnknownFields = true
 	for r.hasNext() {
 		f, err := r.nextObjectKey()
 		if err != nil {
